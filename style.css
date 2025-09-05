@@ -40,3 +40,20 @@ header {
   margin: auto auto;
   align-items: center;
 }
+
+/* heading text */
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+.heading span {
+  color: #00bcff;
+}
+.inputField {
+  display: flex;
+  flex-direction: column;
+}
+/* hero */
+.heroIn {
+  justify-content: space-between;
+}
