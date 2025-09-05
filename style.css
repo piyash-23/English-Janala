@@ -17,8 +17,13 @@
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   border-radius: 4px;
+  cursor: pointer;
 }
-
+.pri-btn:hover {
+  background-color: #422ad5;
+  color: white;
+  transition: 0.2s ease;
+}
 /* body */
 body {
   max-width: 1920px;
@@ -30,6 +35,8 @@ header {
   background-color: #badeff6a;
 }
 .header-container {
+  height: 100%;
   width: 1700px;
   margin: auto auto;
+  align-items: center;
 }
