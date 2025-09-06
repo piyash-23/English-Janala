@@ -6,6 +6,7 @@
     <title>English Janala</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
     <!-- daisy+tailwind -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -49,8 +50,8 @@
     </header>
     <!-- main sec -->
     <main>
-      <section class="hero w-[1760px] mx-auto">
-        <div class="heroIn flex items-center">
+      <section class="hero">
+        <div class="heroIn">
           <div class="heroText">
             <h2 class="heading english"><span>English</span> is Easy!</h2>
             <p class="herotext text-lg bangla">
@@ -61,19 +62,36 @@
               যাবে অন্য একটি Level এ
             </p>
             <div class="inputField">
-              <input type="text" id="text" placeholder="Enter Your Name" />
+              <input
+                type="text"
+                id="text"
+                class="english"
+                placeholder="Enter Your Name"
+              />
               <input
                 type="password"
-                name=""
+                class="english"
                 id="password"
                 placeholder="******"
               />
-              <button>Get Started</button>
+              <button id="submit" class="english">Get Started</button>
             </div>
           </div>
           <div class="heroImg">
             <img src="./assets/hero-student.png" alt="" />
           </div>
+        </div>
+      </section>
+      <!-- vocabulary section -->
+      <section class="learn">
+        <div class="learnInner">
+          <h2 class="heading english text-center mb-8">
+            <span>Let's</span> Learn vocabularies
+          </h2>
+          <div
+            id="btnBox"
+            class="flex justify-center gap-4 mb-5 flex-wrap"
+          ></div>
         </div>
       </section>
     </main>

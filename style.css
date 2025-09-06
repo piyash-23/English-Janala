@@ -49,11 +49,41 @@ header {
 .heading span {
   color: #00bcff;
 }
-.inputField {
-  display: flex;
-  flex-direction: column;
+#text,
+#password {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 14px;
+  outline: none;
+  border: 1px solid #18181b36;
+  border-radius: 4px;
+}
+#submit {
+  cursor: pointer;
+  padding: 10px 14px;
+  background-color: #422ad5;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+#submit:hover {
+  background: transparent;
+  color: #422ad5;
+  border: 1px solid #422ad5;
+  transition: 0.2s ease;
 }
 /* hero */
 .heroIn {
-  justify-content: space-between;
+  width: 1760px;
+  height: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+/* .leveltbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
