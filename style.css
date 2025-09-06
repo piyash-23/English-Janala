@@ -87,3 +87,21 @@ header {
   justify-content: center;
   align-items: center;
 } */
+
+.selectlesson {
+  width: 1760px;
+  margin: 10px auto;
+  background-color: #f8f8f8;
+  padding: 20px 15px;
+}
+.primary {
+  text-align: center;
+}
+#select {
+  color: #79716b;
+  margin-bottom: 10px;
+}
+#lesson {
+  font-size: 40px;
+  font-weight: 700;
+}
