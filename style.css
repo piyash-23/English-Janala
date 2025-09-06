@@ -3,7 +3,7 @@
 /* primary css */
 
 .english {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   font-weight: 500;
 }
 .bangla {
@@ -23,6 +23,10 @@
   background-color: #422ad5;
   color: white;
   transition: 0.2s ease;
+}
+.active {
+  background-color: #422ad5;
+  color: white;
 }
 /* body */
 body {
@@ -97,6 +101,9 @@ header {
 .primary {
   text-align: center;
 }
+.primary img {
+  margin: 0 auto;
+}
 #select {
   color: #79716b;
   margin-bottom: 10px;
@@ -104,4 +111,44 @@ header {
 #lesson {
   font-size: 40px;
   font-weight: 700;
+}
+.card {
+  width: 540px;
+  height: 360px;
+  background-color: #fff;
+  text-align: center;
+}
+.word {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.meaning {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.detail {
+  background-color: rgba(26, 144, 255, 0.1);
+  color: #374957;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
